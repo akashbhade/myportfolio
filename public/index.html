@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Akash Bhade, showcasing projects and contact information.">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script> <!-- Include script.js -->
+</head>
+<body>
+
+  <header>
+    <h1>Akash Bhade</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Computer science engineer with in-depth knowledge of languages and development tools and problem solving ability to
+perform well in a team. Good hands-on knowledge of Source Code Management (Version Control System) tools like Git and
+Subversion. Proficient in developing Continuous Integration/Delivery pipelines. Experience with automation integration
+tools like Jenkins.
+      </p>
+      <!-- <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        convallis, justo et lacinia tincidunt, nunc libero tincidunt nunc, in
+        tincidunt nunc libero at nunc libero.
+      </p> -->
+    </section>
+  
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>My Projects</p>
+      <div class="projects">
+        <div class="project">
+          <img src="https://source.unsplash.com/1200x800/?dark, code" alt="Project 1" />
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+          <img src="https://source.unsplash.com/1200x800/?dark, programming" alt="Project 2" />
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+        </div>
+        <div class="project">
+          <img src="https://source.unsplash.com/1200x800/?web, dev" alt="Project 3" />
+          <h3>Project 3</h3>
+          <p>Description of Project 3</p>
+        </div>
+      </div>
+    </section>
+  
+    <section id="contact">
+      <!-- <h2>Contact</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis, justo et lacinia tincidunt, nunc libero tincidunt nunc, in tincidunt nunc libero at nunc libero.
+      </p> -->
+  
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="responseMessage"></p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; Akash Bhade</p>
+  </footer>
+
+</body>
+</html>
